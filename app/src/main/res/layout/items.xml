@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="205dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:layout_height="300dp">
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#373737"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <TextView
+            android:id="@+id/tv_item"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:text="Bui huu nghia dep trai quá"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="Ghi chu van ban 01-03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
